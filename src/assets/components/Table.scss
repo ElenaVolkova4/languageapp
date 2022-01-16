@@ -4,22 +4,26 @@
   max-width: 1000px;
   width: 700px;
 
-  min-width: 500px;
   // overflow-x: scroll;
   overflow: auto; //для горизонтальной прокрутки таблицы
+
+  // @media screen and (max-width: $tablet) {
+  //   overflow-x: scroll;
+  // }
 }
 
 .table {
-  width: 700px;
-  // width: 100%;
-  overflow-x: scroll;
+  // width: 700px;
+  width: 100%;
+  min-width: 500px;
+  // overflow-x: scroll;
 
   border: none;
   margin-bottom: 20px;
   border-collapse: separate;
 
   // @media screen and (max-width: $tablet) {
-  //   width: 500px;
+  //   overflow-x: scroll;
   // }
 }
 
