@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+
+// свойства если кнопка - button
+.buttonCheck {
+  margin-top: 25px;
+
+  padding: 8px;
+  font-family: 'Roboto', sans-serif;
+
+  border-radius: 5px;
+  background-color: $customLightTextColor;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  &:focus {
+    outline: 2px dashed #473a95;
+  }
+
+  @media screen and (max-width: $mobile) {
+    font-size: 10px;
+  }
+}
+
+// свойства если кнопка - div
+// .buttonCheck {
+//   // width: 80px;
+//   padding: 8px;
+
+//   border-radius: 5px;
+//   border: 1px solid rgb(49, 9, 87);
+//   font-size: 12px;
+//   cursor: pointer;
+// }

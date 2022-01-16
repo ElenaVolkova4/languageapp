@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@mixin customFont {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$customLightTextColor: rgb(238, 225, 238);
+
+$mobile: 380px;
+$tablet: 720px;
+$laptop: 1025px;

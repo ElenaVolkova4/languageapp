@@ -1,0 +1,32 @@
+@import '../styles/variables.scss';
+
+.tableRow_actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+
+  @media screen and (max-width: $tablet) {
+    gap: 2px;
+  }
+}
+
+.inputTableRow {
+  width: 140px;
+  border: 1px solid #685096;
+  border-radius: 5px;
+  outline: none;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+  @media screen and (max-width: $tablet) {
+    width: 80px;
+    font-size: 11px;
+  }
+}
+
+.redInputTableRow {
+  border: 2px solid red;
+}

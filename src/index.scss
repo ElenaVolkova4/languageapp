@@ -1,0 +1,21 @@
+@import './assets/styles/variables.scss';
+
+body {
+  * {
+    box-sizing: border-box;
+  }
+
+  padding-top: 100px; //для закрепления header всегда наверху
+
+  @include customFont;
+
+  max-width: 900px;
+  margin: auto;
+  background: linear-gradient(
+      180deg,
+      rgba(150, 143, 216, 0.21) 0%,
+      rgb(129, 86, 146) 99%
+    ),
+    url('../src/assets/images/fon-iz-garri-pottera.png') no-repeat center top /
+      cover;
+}

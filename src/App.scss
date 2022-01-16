@@ -1,0 +1,25 @@
+.App {
+  max-width: 1170px;
+  min-height: 100vh;
+  margin: auto;
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+
+  /* для прижатия футера к низу */
+  flex: 1 1 auto;
+}
+
+// .main_cards {
+//   display: flex;
+//   flex-direction: row;
+//   gap: 5px;
+//   flex-wrap: wrap;
+// }
