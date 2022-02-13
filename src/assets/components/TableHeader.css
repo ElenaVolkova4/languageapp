@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.table_header th {
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  padding: 10px 15px;
+  background: #eee1ee;
+  font-size: 18px;
+  border-top: 1px solid #eee1ee;
+  color: #310957;
+}
+
+@media screen and (max-width: 720px) {
+  .table_header th {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=TableHeader.css.map */

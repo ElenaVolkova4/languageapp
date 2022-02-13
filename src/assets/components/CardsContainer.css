@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.cardsContainer {
+  width: 600px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .cardsContainer {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .cardsContainer {
+    width: 200px;
+    height: 250px;
+  }
+}
+
+.cardsContainer_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 380px) {
+  .cardsContainer_cards {
+    gap: 10px;
+  }
+}
+
+.cardsContainer_count {
+  text-align: center;
+  color: #efb1ff;
+}
+/*# sourceMappingURL=CardsContainer.css.map */

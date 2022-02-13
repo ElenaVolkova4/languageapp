@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,4EAAI;ADEZ,AAAA,aAAa,CAAC,EAAE,CAAC;EACf,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,SAAS;EAClB,UAAU,ECMW,OAAkB;EDLvC,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,GAAG,CAAC,KAAK,CCIA,OAAkB;EDHvC,KAAK,EAAE,OAAc;CAKtB;;AAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAVrC,AAAA,aAAa,CAAC,EAAE,CAAC;IAWb,SAAS,EAAE,IAAI;GAElB",
+    "sources": [
+        "TableHeader.scss",
+        "../styles/variables.scss"
+    ],
+    "names": [],
+    "file": "TableHeader.css"
+}

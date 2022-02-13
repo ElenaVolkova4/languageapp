@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.tableRow_actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  border: none;
+}
+
+@media screen and (max-width: 720px) {
+  .tableRow_actions {
+    gap: 2px;
+  }
+}
+
+.inputTableRow {
+  width: 140px;
+  border: 1px solid #685096;
+  border-radius: 5px;
+  outline: none;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 720px) {
+  .inputTableRow {
+    width: 80px;
+    font-size: 11px;
+  }
+}
+
+.redInputTableRow {
+  border: 2px solid red;
+}
+/*# sourceMappingURL=TableRow.css.map */

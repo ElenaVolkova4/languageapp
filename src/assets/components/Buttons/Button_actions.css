@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.button_actions {
+  padding-left: 5px;
+  padding-right: 4px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button_actions:hover {
+  -webkit-box-shadow: 0px 0px 5px 1px #483a97;
+          box-shadow: 0px 0px 5px 1px #483a97;
+}
+
+@media screen and (max-width: 720px) {
+  .button_actions {
+    font-size: 10px;
+  }
+}
+
+.disabled_button {
+  background: #f5e1e1;
+  cursor: not-allowed;
+  z-index: -1;
+}
+/*# sourceMappingURL=Button_actions.css.map */

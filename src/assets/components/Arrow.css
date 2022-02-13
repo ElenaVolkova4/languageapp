@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.arrow {
+  padding: 10px;
+  border: 1px solid #efb1ff;
+  color: #efb1ff;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 380px) {
+  .arrow {
+    font-size: 10px;
+    padding: 8px;
+  }
+}
+
+.disabled {
+  border: 1px solid grey;
+  color: grey;
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=Arrow.css.map */

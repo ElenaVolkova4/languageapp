@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  padding-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  max-width: 900px;
+  margin: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(150, 143, 216, 0.21)), color-stop(99%, #815692)), url("../src/assets/images/fon-iz-garri-pottera.png") no-repeat center top/cover;
+  background: linear-gradient(180deg, rgba(150, 143, 216, 0.21) 0%, #815692 99%), url("../src/assets/images/fon-iz-garri-pottera.png") no-repeat center top/cover;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=index.css.map */

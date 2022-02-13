@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.errorPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  padding-top: 100px;
+}
+
+.errorPage_text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #eee1ee;
+}
+
+.errorPic {
+  width: 400px;
+}
+/*# sourceMappingURL=ErrorPage.css.map */

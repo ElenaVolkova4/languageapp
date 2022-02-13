@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.buttonCheck {
+  margin-top: 25px;
+  padding: 8px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  background-color: #eee1ee;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.buttonCheck:focus {
+  outline: 2px dashed #473a95;
+}
+
+@media screen and (max-width: 380px) {
+  .buttonCheck {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=Button_check.css.map */
