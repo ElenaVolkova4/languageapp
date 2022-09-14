@@ -36,6 +36,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 5px;
+
+  @media screen and (max-width: $tablet) {
+    gap: 0px;
+  }
 }
 
 .header_buttons {
