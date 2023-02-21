@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/languageapp/static/css/main.a8888f01.chunk.css",
-    "main.js": "/languageapp/static/js/main.f7a86098.chunk.js",
-    "main.js.map": "/languageapp/static/js/main.f7a86098.chunk.js.map",
-    "runtime-main.js": "/languageapp/static/js/runtime-main.3e0a0f3d.js",
-    "runtime-main.js.map": "/languageapp/static/js/runtime-main.3e0a0f3d.js.map",
-    "static/js/2.5c7e786e.chunk.js": "/languageapp/static/js/2.5c7e786e.chunk.js",
-    "static/js/2.5c7e786e.chunk.js.map": "/languageapp/static/js/2.5c7e786e.chunk.js.map",
-    "static/js/3.d06ad9ac.chunk.js": "/languageapp/static/js/3.d06ad9ac.chunk.js",
-    "static/js/3.d06ad9ac.chunk.js.map": "/languageapp/static/js/3.d06ad9ac.chunk.js.map",
+    "main.js": "/languageapp/static/js/main.743c93cd.chunk.js",
+    "main.js.map": "/languageapp/static/js/main.743c93cd.chunk.js.map",
+    "runtime-main.js": "/languageapp/static/js/runtime-main.3a511172.js",
+    "runtime-main.js.map": "/languageapp/static/js/runtime-main.3a511172.js.map",
+    "static/js/2.8a74b52f.chunk.js": "/languageapp/static/js/2.8a74b52f.chunk.js",
+    "static/js/2.8a74b52f.chunk.js.map": "/languageapp/static/js/2.8a74b52f.chunk.js.map",
+    "static/js/3.dacf6cba.chunk.js": "/languageapp/static/js/3.dacf6cba.chunk.js",
+    "static/js/3.dacf6cba.chunk.js.map": "/languageapp/static/js/3.dacf6cba.chunk.js.map",
     "index.html": "/languageapp/index.html",
     "static/css/main.a8888f01.chunk.css.map": "/languageapp/static/css/main.a8888f01.chunk.css.map",
-    "static/js/2.5c7e786e.chunk.js.LICENSE.txt": "/languageapp/static/js/2.5c7e786e.chunk.js.LICENSE.txt",
+    "static/js/2.8a74b52f.chunk.js.LICENSE.txt": "/languageapp/static/js/2.8a74b52f.chunk.js.LICENSE.txt",
     "static/media/1.91b91e0a.png": "/languageapp/static/media/1.91b91e0a.png",
     "static/media/error.1b2bf6b7.png": "/languageapp/static/media/error.1b2bf6b7.png",
     "static/media/index.scss": "/languageapp/static/media/fon-iz-garri-pottera.bff59d12.png",
     "static/media/logo10.6850f908.png": "/languageapp/static/media/logo10.6850f908.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e0a0f3d.js",
-    "static/js/2.5c7e786e.chunk.js",
+    "static/js/runtime-main.3a511172.js",
+    "static/js/2.8a74b52f.chunk.js",
     "static/css/main.a8888f01.chunk.css",
-    "static/js/main.f7a86098.chunk.js"
+    "static/js/main.743c93cd.chunk.js"
   ]
 }
